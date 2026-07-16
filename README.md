@@ -12,10 +12,10 @@ For time saving, I'm applying rule-based method for `Note` column to extract the
 However, for more accurate pre-processing we can apply NLP libraries such as Spacy with NER (Name Entity Recognition) capability to extract donator name and analyze sentitment from text to define warm messages.
 ### 3. Analysis method
 - Apply logarithm method to scale donated amount into groups (1k-10k, 10k-100k, 100k-1m, 1m-10m,...) for analysis, as amount has highly skew distribution.
-- Flag a donation as suspicious if the donation is from organization but donated amount is significantly low (e.g., <= 50k VND). From the dashboard you can also adjust the threshold to detect organization who may have fake or stolen charity money.
+- Flag a donation as suspicious if the donation is from organization but donated amount is significantly low (e.g., <= 50k VND)
 ## Key findings
 Donation behavior:
 - Donation increased significantly from 10/09/2024 which is the first date of officially lauching the donation campaign. Before 10/09/2024, there were only a small numbers of early transfer from donators. 
 - People donated 100K VND the most.
-- There're proportion of organization that donated a very low amount - that is weird and may need to check further.
+- There're proportion of organization that donated a very low amount - that is weird and may need to check further if those organizations have fake or stolen charity money
 ## Disclaimer
